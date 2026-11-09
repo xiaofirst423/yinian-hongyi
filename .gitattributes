@@ -1,0 +1,13 @@
+* text=auto
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.png binary
+
+# 保留正式数据的原始字节，确保 sourceHashes 可重复校验
+*.json -text

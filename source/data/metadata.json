@@ -1,0 +1,39 @@
+{
+  "version": "1.1-reviewed-20261101",
+  "source_filename": "故居讲解词（新版）全9.19.docx",
+  "source_sha256": "b291ba7e2a570c7e7d9645b2f6e572faaa2176194031de8dcccdc977a328b34f",
+  "document_id": "DOC_2f4dd08a1f57891d",
+  "historical_fact_sources": "original_docx_and_user_supplied_review",
+  "external_fact_check_performed": false,
+  "annotation_method": "reviewed_semantic_annotations",
+  "namespace": "https://example.org/lishutong-kg/",
+  "namespace_note": "example.org is a project namespace placeholder, not a source or hosted service",
+  "review_policy": "exclude_unfinished_claims",
+  "review_filename": "李叔同疑点清单_第二轮深度复核.xlsx",
+  "review_sha256": "9b945fbf4f505a144d997fe8ce538a1616a6ce105d2877abc33d826d3db1181c",
+  "review_document_id": "DOC_10ff5eff4ed33c36",
+  "review_date": "2026-11-01",
+  "approved_review_issue_ids": [
+    "Q_DONATION_AGENT",
+    "Q_JUEDAO",
+    "Q_LU_VARIANT",
+    "Q_MOVE_DATE",
+    "Q_NANJING_SONG",
+    "Q_PREVIEW_DATES",
+    "Q_SHI_DATES",
+    "Q_XU_VARIANT"
+  ],
+  "suspended_review_issue_ids": [
+    "Q_COUPLET_AUTHOR",
+    "Q_EARLY_SEALS",
+    "Q_HUAI_DATE",
+    "Q_KNIFE",
+    "Q_LIN_IDENTITY",
+    "Q_ORDINAL_GAP",
+    "Q_PRESENT_TITLES",
+    "Q_PRINT_BASE"
+  ],
+  "independent_web_verification_performed": false,
+  "original_nonempty_paragraphs": 580,
+  "review_verification_method": "user_supplied_workbook_conclusions"
+}

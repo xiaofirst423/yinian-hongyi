@@ -1,0 +1,22 @@
+# 本机运行状态和开发输出
+/.runtime/
+/qa/
+/output/
+__pycache__/
+*.py[cod]
+node_modules/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
+# 本地验收记录与依赖本机环境的浏览器检查
+/使用说明.md
+/验收记录.md
+/scripts/*_qa.mjs
+/scripts/validate_launcher.py
+
+# 早期首页素材；当前站点只使用知识图谱背景
+/assets/visuals/hero-lishutong.png
+/assets/visuals/icon-knowledge-graph.png
+/assets/visuals/paper-ink-bg.png

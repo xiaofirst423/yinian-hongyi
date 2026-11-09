@@ -1,0 +1,744 @@
+[
+  {
+    "id": "AL_04881eea93742bb1",
+    "entity_id": "ENT_b9d550dda9e1639c",
+    "alias": "范孙",
+    "kind": "字",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_b4d3a0410c3756d3"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_1e75771f8b0cbf0f",
+    "entity_id": "ENT_ce2cf03b345ceee2",
+    "alias": "浙江第一师范学校",
+    "kind": "文内简称",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_65a334e23f6429ba"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_1fddc3d03ab800e0",
+    "entity_id": "ENT_cf00e61c4fbd398a",
+    "alias": "徐耀庭",
+    "kind": "文内异写",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_be2d420965f10756",
+      "EV_ca07a62b735fb8e9",
+      "EV_d161206b77cd66c7",
+      "EV_d3a0bdef7a7d3ad7"
+    ],
+    "note": "复核表确认同人异写，不宣称亲笔姓名唯一正字。",
+    "external_verified": true,
+    "verification_status": "confirmed_in_user_review",
+    "review_issue_ids": [
+      "Q_XU_VARIANT"
+    ]
+  },
+  {
+    "id": "AL_20ae2f6a7b9860db",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "李双行",
+    "kind": "美称",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_50b0dd5b45ec153e"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_249547792e7fd63a",
+    "entity_id": "ENT_5dc6183a066432ab",
+    "alias": "仁安",
+    "kind": "字",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_055995fc836dd97c"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_2502f6508e889b1b",
+    "entity_id": "ENT_64823766c9081a5b",
+    "alias": "士照",
+    "kind": "初名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_cdce648da1d95dfc"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_2578e4bf34f87220",
+    "entity_id": "ENT_cf00e61c4fbd398a",
+    "alias": "仁大人",
+    "kind": "称呼",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_be2d420965f10756"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_25c04a9af717dba3",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "二一老人",
+    "kind": "晚年名号",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_ac6ede997e86b75d"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_393a348807dca7e6",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "息翁",
+    "kind": "署名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_b0c376760b6a1a57"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_3dacb709f74ef308",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "成蹊",
+    "kind": "幼名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_c69c71cc1a1540e3"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_402586fabb09b634",
+    "entity_id": "ENT_b9d550dda9e1639c",
+    "alias": "梦扶",
+    "kind": "号",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_b4d3a0410c3756d3"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_4b2b7e7dfe8f4607",
+    "entity_id": "ENT_c3c5640094e666b4",
+    "alias": "幼梅",
+    "kind": "字",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_0436b384948bbbba"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_4ca030434947c41a",
+    "entity_id": "ENT_65eda9226f7d5b4c",
+    "alias": "南京高等师范学校校歌",
+    "kind": "历史使用名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_3b72011572f224d0",
+      "EV_11692a9a6181c451"
+    ],
+    "note": "依据用户复核表确认的名称指称",
+    "external_verified": true,
+    "verification_status": "confirmed_in_user_review",
+    "review_issue_ids": [
+      "Q_NANJING_SONG"
+    ]
+  },
+  {
+    "id": "AL_56e0b7b43b218ddd",
+    "entity_id": "ENT_0255a8b0341329e0",
+    "alias": "存吴",
+    "kind": "号",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_b86beff1a7eeabca"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_58351a5845ee7c7f",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "息霜",
+    "kind": "署名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_6d3f6a81d4d87a8b"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_5ad8646e53a7fd2a",
+    "entity_id": "ENT_65eda9226f7d5b4c",
+    "alias": "南京高师校歌",
+    "kind": "历史简称",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_3b72011572f224d0",
+      "EV_11692a9a6181c451"
+    ],
+    "note": "依据用户复核表确认的名称指称",
+    "external_verified": true,
+    "verification_status": "confirmed_in_user_review",
+    "review_issue_ids": [
+      "Q_NANJING_SONG"
+    ]
+  },
+  {
+    "id": "AL_5af16e8774c9eed4",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "李息霜",
+    "kind": "署名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_9d08ea8b2cf02bd3"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_5fa243639a722d9c",
+    "entity_id": "ENT_b5d98bb9b532f6ed",
+    "alias": "寒香",
+    "kind": "号",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_654e32d0a7215cae"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_605d0ab9a85cdec3",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "李婴",
+    "kind": "改名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_234d6ff8fc88b153"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_66b23d7e9e7041e8",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "李哀",
+    "kind": "自称",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_2e83e9c9dbf3dccc",
+      "EV_b6538d67fbfac2e4"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_66fd52dc61e9dcb6",
+    "entity_id": "ENT_c3c5640094e666b4",
+    "alias": "体仁",
+    "kind": "字",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_0436b384948bbbba"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_77c600fba3a69690",
+    "entity_id": "ENT_b5d98bb9b532f6ed",
+    "alias": "师导",
+    "kind": "法名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_654e32d0a7215cae"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_7dd39a0249037456",
+    "entity_id": "ENT_fd00f2ab9b5a906b",
+    "alias": "勉旃",
+    "kind": "字",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_465568c2975e82b2"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_7f2d459105c421d9",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "李岸",
+    "kind": "留学登记名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_a4c5126adedbbd6d"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_7fc2d79d49f7cbe6",
+    "entity_id": "ENT_1d5a31285f3a75e7",
+    "alias": "高文彬",
+    "kind": "俗名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_59857f9e2abe4e91"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_821ca5553a22a2db",
+    "entity_id": "ENT_20e6746e64c3f252",
+    "alias": "福田",
+    "kind": "原名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_7fad0d8877c4104d"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_8a393a9a0ef85ce3",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "弘一",
+    "kind": "号",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_234d6ff8fc88b153"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_95e00abf9b850293",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "李文涛",
+    "kind": "姓名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_84786a39b8810ddc",
+      "EV_c69c71cc1a1540e3"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_9853ff18c2db6722",
+    "entity_id": "ENT_d44bb232e8fe3daa",
+    "alias": "照融",
+    "kind": "法名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_a74b2eb2c480e05a"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_a49e1e562cc0989a",
+    "entity_id": "ENT_20e6746e64c3f252",
+    "alias": "湛翁",
+    "kind": "号",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_7fad0d8877c4104d"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_aa4aff9096da07ad",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "文涛",
+    "kind": "名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_c69c71cc1a1540e3"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_ab3f3d8ec9825907",
+    "entity_id": "ENT_ce2cf03b345ceee2",
+    "alias": "浙一师",
+    "kind": "简称",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_b836b2f68d154e43"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_b150d1004d85f4d2",
+    "entity_id": "ENT_d44bb232e8fe3daa",
+    "alias": "黄润智",
+    "kind": "俗名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_a74b2eb2c480e05a"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_b409e8beb5b554ea",
+    "entity_id": "ENT_20e6746e64c3f252",
+    "alias": "太渊",
+    "kind": "字",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_7fad0d8877c4104d"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_b455ba388d4ddc6e",
+    "entity_id": "ENT_cf00e61c4fbd398a",
+    "alias": "五哥",
+    "kind": "称呼",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_be2d420965f10756"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_b82e29296cf37ba0",
+    "entity_id": "ENT_20e6746e64c3f252",
+    "alias": "浮",
+    "kind": "名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_7fad0d8877c4104d"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_c72dff35ce5801e0",
+    "entity_id": "ENT_fd00f2ab9b5a906b",
+    "alias": "铸",
+    "kind": "名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_465568c2975e82b2"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_cec368fd9e74f86f",
+    "entity_id": "ENT_35f6a5bf1fbf8945",
+    "alias": "晓晴",
+    "kind": "又名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_05c9004b35b8fed8"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_d799836ac1fa6300",
+    "entity_id": "ENT_d44bb232e8fe3daa",
+    "alias": "阿礼",
+    "kind": "又名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_a74b2eb2c480e05a"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_e1ea45915ed54450",
+    "entity_id": "ENT_42db67ab9625340c",
+    "alias": "宗光",
+    "kind": "原名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_78e2cab564fd9cd0"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_e2fcae1d2158a5a3",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "三郎",
+    "kind": "排行自称",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_6d3f6a81d4d87a8b"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_e31357a5c4ac1c56",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "弘一大师",
+    "kind": "尊称",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_bcf42ce6e3bd9bca"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_e536d4afb381c5a8",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "叔同",
+    "kind": "字",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_c69c71cc1a1540e3"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_e695df70b091d5af",
+    "entity_id": "ENT_5bf1afcdd8331046",
+    "alias": "李筱楼",
+    "kind": "文内别称",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_3e5843b5176533f7",
+      "EV_c7149f6e5404bc74"
+    ],
+    "note": "依据父亲身份和相邻段落共指归并，未作外部核验。",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_e992d05f8768ee11",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "演音",
+    "kind": "法名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_234d6ff8fc88b153"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_ea0f7a81a34a6ccc",
+    "entity_id": "ENT_c3c5640094e666b4",
+    "alias": "藏斋",
+    "kind": "号",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_0436b384948bbbba"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_eadb3ed7d5806afe",
+    "entity_id": "ENT_cf00e61c4fbd398a",
+    "alias": "恩煜",
+    "kind": "名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_be2d420965f10756"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_edaad26f45d0f2c6",
+    "entity_id": "ENT_054907228b2acc6f",
+    "alias": "唐育垕",
+    "kind": "姓名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_854e01c06a7a4e55"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_f449bc4f73efe2cb",
+    "entity_id": "ENT_cb2a71fc10b4bc11",
+    "alias": "蕅益大师警训略录",
+    "kind": "又名",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_07740d70d93cbe1e"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_f828f37cbc33d3d5",
+    "entity_id": "ENT_1db4e49631614750",
+    "alias": "晚晴老人",
+    "kind": "晚年名号",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_b52a3faef482f4f4"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_f8f5a225e704b98c",
+    "entity_id": "ENT_d44bb232e8fe3daa",
+    "alias": "普润",
+    "kind": "法号",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_a74b2eb2c480e05a"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  },
+  {
+    "id": "AL_f97dc9e51e206669",
+    "entity_id": "ENT_fd00f2ab9b5a906b",
+    "alias": "闷庵",
+    "kind": "号",
+    "review_status": "accepted",
+    "evidence_ids": [
+      "EV_465568c2975e82b2"
+    ],
+    "note": "",
+    "external_verified": false,
+    "verification_status": "original_source_supported",
+    "review_issue_ids": []
+  }
+]

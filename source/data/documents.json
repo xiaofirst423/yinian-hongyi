@@ -1,0 +1,23 @@
+[
+  {
+    "version": "1.0",
+    "source_filename": "故居讲解词（新版）全9.19.docx",
+    "source_sha256": "b291ba7e2a570c7e7d9645b2f6e572faaa2176194031de8dcccdc977a328b34f",
+    "document_id": "DOC_2f4dd08a1f57891d",
+    "historical_fact_sources": "supplied_docx_only",
+    "external_fact_check_performed": false,
+    "annotation_method": "reviewed_semantic_annotations",
+    "namespace": "https://example.org/lishutong-kg/",
+    "namespace_note": "example.org is a project namespace placeholder, not a source or hosted service",
+    "id": "DOC_2f4dd08a1f57891d",
+    "source_kind": "docx"
+  },
+  {
+    "id": "DOC_10ff5eff4ed33c36",
+    "document_id": "DOC_10ff5eff4ed33c36",
+    "source_filename": "李叔同疑点清单_第二轮深度复核.xlsx",
+    "source_sha256": "9b945fbf4f505a144d997fe8ce538a1616a6ce105d2877abc33d826d3db1181c",
+    "source_kind": "xlsx",
+    "review_date": "2026-11-01"
+  }
+]

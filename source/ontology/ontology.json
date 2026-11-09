@@ -1,0 +1,1639 @@
+{
+  "namespace": "https://example.org/lishutong-kg/",
+  "classes": [
+    {
+      "id": "Person",
+      "label": "人物",
+      "definition": "可在讲解词中辨识的真实人物；字号与法名不另建人物。",
+      "example_entity_id": "ENT_0255a8b0341329e0",
+      "example_name": "曾孝谷",
+      "example_paragraph_ids": [
+        "P0418",
+        "P0451"
+      ]
+    },
+    {
+      "id": "FamilyGroup",
+      "label": "家族或人物群体",
+      "definition": "李氏家族、天涯五友等有明确名称的人物集合。",
+      "example_entity_id": "ENT_32282b79b747b967",
+      "example_name": "李氏家族",
+      "example_paragraph_ids": [
+        "P0025",
+        "P0026"
+      ]
+    },
+    {
+      "id": "Organization",
+      "label": "组织机构",
+      "definition": "学校、社团、寺院组织、报社、出版社及纪念馆机构。",
+      "example_entity_id": "ENT_006b798598d159b1",
+      "example_name": "城南文社",
+      "example_paragraph_ids": [
+        "P0384",
+        "P0483"
+      ]
+    },
+    {
+      "id": "Place",
+      "label": "地点与建筑",
+      "definition": "城市、地域、地址、历史或现存建筑和物理空间；与机构分开。",
+      "example_entity_id": "ENT_099c01d195d99375",
+      "example_name": "宫北大街",
+      "example_paragraph_ids": [
+        "P0068"
+      ]
+    },
+    {
+      "id": "Work",
+      "label": "作品",
+      "definition": "歌曲、诗文、著述、书法、绘画、印文与出版物等智力或艺术创作。",
+      "example_entity_id": "ENT_007e7919693313e9",
+      "example_name": "静物",
+      "example_paragraph_ids": [
+        "P0453"
+      ]
+    },
+    {
+      "id": "Exhibit",
+      "label": "展陈记录",
+      "definition": "讲解词指称的一件或一组展陈材料；不是经过核验的馆藏实物清单。",
+      "example_entity_id": "ENT_01581fd0aa893418",
+      "example_name": "进士第（展陈记录 P0010）",
+      "example_paragraph_ids": [
+        "P0010"
+      ]
+    },
+    {
+      "id": "Event",
+      "label": "事件",
+      "definition": "具有时间、地点、参与者或结果的经历；计划事件记录实际完成状态。",
+      "example_entity_id": "ENT_059bb3257c16d127",
+      "example_name": "李叔同加入南社",
+      "example_paragraph_ids": [
+        "P0218"
+      ]
+    },
+    {
+      "id": "ExhibitionUnit",
+      "label": "展陈单元",
+      "definition": "基本陈列、部分、单元及展示组等叙事组织，不等同物理展室。",
+      "example_entity_id": "ENT_01b3ec1ab48f3523",
+      "example_name": "才情卓越的诗词家",
+      "example_paragraph_ids": [
+        "P0380"
+      ]
+    },
+    {
+      "id": "Concept",
+      "label": "主题概念",
+      "definition": "艺术门类、风格、思想、佛教宗派等可复用主题。",
+      "example_entity_id": "ENT_06a94e3bc1ca05d3",
+      "example_name": "存朴家风",
+      "example_paragraph_ids": [
+        "P0056"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "FATHER_OF",
+      "label": "父亲",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Person"
+      ],
+      "definition": "主体是客体的父亲；方向为父亲到子女。",
+      "example_statement_id": "ST_339960ee711f9ae4",
+      "example_subject": "李世珍",
+      "example_object": "李叔同",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0057"
+      ]
+    },
+    {
+      "id": "MOTHER_OF",
+      "label": "母亲",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Person"
+      ],
+      "definition": "主体是客体的母亲；方向为母亲到子女。",
+      "example_statement_id": "ST_f0f1d995c4c82907",
+      "example_subject": "王氏",
+      "example_object": "李叔同",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0071"
+      ]
+    },
+    {
+      "id": "SPOUSE_OF",
+      "label": "配偶",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Person"
+      ],
+      "definition": "原文明确婚姻关系；只存一条，不物化反向边。",
+      "example_statement_id": "ST_65d8ecb6053588be",
+      "example_subject": "李叔同",
+      "example_object": "俞氏",
+      "example_role": "",
+      "example_time": "1897年",
+      "example_paragraph_ids": [
+        "P0057",
+        "P0071"
+      ]
+    },
+    {
+      "id": "SIBLING_OF",
+      "label": "兄弟姐妹",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Person"
+      ],
+      "definition": "原文明确同胞或异母关系，细分见限定说明。",
+      "example_statement_id": "ST_007158c7ef6c8aca",
+      "example_subject": "李文熙",
+      "example_object": "李叔同",
+      "example_role": "同父异母兄长",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0069"
+      ]
+    },
+    {
+      "id": "GRANDPARENT_OF",
+      "label": "祖辈",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Person"
+      ],
+      "definition": "原文明确主体是客体祖父母或外祖父母。",
+      "example_statement_id": "ST_d2da251b4d9788a1",
+      "example_subject": "李锐",
+      "example_object": "李叔同",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0057"
+      ]
+    },
+    {
+      "id": "TEACHER_OF",
+      "label": "教授或指导",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Person"
+      ],
+      "definition": "主体实际指导客体；不包含临摹古人或单纯艺术影响。",
+      "example_statement_id": "ST_0634d45e40725ece",
+      "example_subject": "李叔同",
+      "example_object": "李鸿梁",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0198"
+      ]
+    },
+    {
+      "id": "FRIEND_OF",
+      "label": "友人",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Person"
+      ],
+      "definition": "原文明示交游或友谊，不能由同段共现推出。",
+      "example_statement_id": "ST_062cbcdbb26f3bbc",
+      "example_subject": "欧阳予倩",
+      "example_object": "李叔同",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0564"
+      ]
+    },
+    {
+      "id": "ACQUAINTED_WITH",
+      "label": "相识",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Person"
+      ],
+      "definition": "原文明示结识或相识，不扩大解释为密友。",
+      "example_statement_id": "ST_50ae5efdc5e7d9e0",
+      "example_subject": "李叔同",
+      "example_object": "高天梅",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0218"
+      ]
+    },
+    {
+      "id": "CLASSMATE_OF",
+      "label": "同学",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Person"
+      ],
+      "definition": "原文明示同学关系。",
+      "example_statement_id": "ST_633b85707babd0b8",
+      "example_subject": "曾孝谷",
+      "example_object": "李叔同",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0418"
+      ]
+    },
+    {
+      "id": "MEMBER_OF",
+      "label": "成员属于",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Organization",
+        "FamilyGroup"
+      ],
+      "definition": "原文明确加入或属于该机构或群体。",
+      "example_statement_id": "ST_078986097df01a79",
+      "example_subject": "丘志贞",
+      "example_object": "乐石社",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0309"
+      ]
+    },
+    {
+      "id": "STUDIED_AT",
+      "label": "就读于",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "definition": "实际就读，不含受邀任教或仅参观。",
+      "example_statement_id": "ST_0e7a6517d2547590",
+      "example_subject": "李叔同",
+      "example_object": "南洋公学",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0116",
+        "P0170"
+      ]
+    },
+    {
+      "id": "TAUGHT_AT",
+      "label": "任教于",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "definition": "原文明确实际任教；课目及时段见限定。",
+      "example_statement_id": "ST_1276720cdaa62505",
+      "example_subject": "严复",
+      "example_object": "北洋水师学堂",
+      "example_role": "洋文总教习",
+      "example_time": "1880—1900年",
+      "example_paragraph_ids": [
+        "P0140"
+      ]
+    },
+    {
+      "id": "WORKED_AT",
+      "label": "任职于",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "definition": "非教学任职，具体职务见限定说明。",
+      "example_statement_id": "ST_1a440261c98fc01b",
+      "example_subject": "广洽法师",
+      "example_object": "南普陀寺",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0611"
+      ]
+    },
+    {
+      "id": "FOUNDED",
+      "label": "创办",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "definition": "已经创办的机构；筹建未成不能使用。",
+      "example_statement_id": "ST_0b054ca4e8acdc03",
+      "example_subject": "黑田清辉",
+      "example_object": "白马会",
+      "example_role": "",
+      "example_time": "1896年",
+      "example_paragraph_ids": [
+        "P0453"
+      ]
+    },
+    {
+      "id": "PLANNED_TO_FOUND",
+      "label": "筹办",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "definition": "筹办或提议创办；不表明机构已经成立。",
+      "example_statement_id": "ST_3d620019863aabd2",
+      "example_subject": "李叔同",
+      "example_object": "佛教养正院",
+      "example_role": "提议创办，实际存在见1936年讲演",
+      "example_time": "1934年",
+      "example_paragraph_ids": [
+        "P0566"
+      ]
+    },
+    {
+      "id": "BORN_IN",
+      "label": "出生于",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Place"
+      ],
+      "definition": "原文明示出生地。",
+      "example_statement_id": "ST_3c24e5daae57a368",
+      "example_subject": "李叔同",
+      "example_object": "陆家胡同旧宅",
+      "example_role": "",
+      "example_time": "1880年10月23日",
+      "example_paragraph_ids": [
+        "P0058"
+      ]
+    },
+    {
+      "id": "DIED_IN",
+      "label": "逝世于",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Place"
+      ],
+      "definition": "原文明示逝世或圆寂地点。",
+      "example_statement_id": "ST_9e609160ed051030",
+      "example_subject": "李叔同",
+      "example_object": "温陵养老院",
+      "example_role": "",
+      "example_time": "1942年10月13日",
+      "example_paragraph_ids": [
+        "P0634"
+      ]
+    },
+    {
+      "id": "LIVED_IN",
+      "label": "居住于",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Place"
+      ],
+      "definition": "实际居住，不含未成行的计划。",
+      "example_statement_id": "ST_16ee86eed2fc60d5",
+      "example_subject": "李叔同",
+      "example_object": "李家历史原宅",
+      "example_role": "",
+      "example_time": "三岁至19岁",
+      "example_paragraph_ids": [
+        "P0010"
+      ]
+    },
+    {
+      "id": "VISITED",
+      "label": "到访",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Place"
+      ],
+      "definition": "原文明示实际到访。",
+      "example_statement_id": "ST_a785a7a2cc35d6ec",
+      "example_subject": "郁达夫",
+      "example_object": "日光岩寺",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0543"
+      ]
+    },
+    {
+      "id": "INFLUENCED_BY",
+      "label": "受到影响",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Person",
+        "Work",
+        "Concept"
+      ],
+      "definition": "原文明确的影响，不将共现当作因果。",
+      "example_statement_id": "ST_05dddcf38cdd6fdc",
+      "example_subject": "李叔同",
+      "example_object": "严复",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0140",
+        "P0146"
+      ]
+    },
+    {
+      "id": "LEARNED_STYLE_FROM",
+      "label": "师法风格",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Person",
+        "Work",
+        "Concept"
+      ],
+      "definition": "师法、取法或临学风格，区别亲授师承。",
+      "example_statement_id": "ST_18fe8490571f1233",
+      "example_subject": "李叔同",
+      "example_object": "黄庭坚",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0240",
+        "P0254"
+      ]
+    },
+    {
+      "id": "CREATED",
+      "label": "创作但分工未载",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "原文明示创作而未说明具体角色；不能据此推出作词、作曲或绘画分工。",
+      "example_statement_id": "",
+      "example_subject": "",
+      "example_object": "",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": []
+    },
+    {
+      "id": "COLLABORATED_ON",
+      "label": "共同创作",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "原文明确合作创作，但未明确具体分工；不推定绘画、作词等角色。",
+      "example_statement_id": "ST_5bc378d249126194",
+      "example_subject": "丰子恺",
+      "example_object": "护生画集",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0202",
+        "P0513"
+      ]
+    },
+    {
+      "id": "WROTE",
+      "label": "撰写",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "文字内容作者，区别书法书写者。",
+      "example_statement_id": "ST_07abe4e07b8c0935",
+      "example_subject": "夏丏尊",
+      "example_object": "怀晚晴老人",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0592"
+      ]
+    },
+    {
+      "id": "WROTE_LYRICS",
+      "label": "作词",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "歌曲歌词作者；不推出曲调作者身份。",
+      "example_statement_id": "ST_01589328c9b92c82",
+      "example_subject": "李叔同",
+      "example_object": "春郊赛跑",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0372"
+      ]
+    },
+    {
+      "id": "COMPOSED",
+      "label": "作曲",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "原文明示创作曲调；使用五线谱不等于作曲。",
+      "example_statement_id": "ST_1cbc9a35a835b482",
+      "example_subject": "刘质平",
+      "example_object": "观心",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0350"
+      ]
+    },
+    {
+      "id": "SELECTED_MELODY",
+      "label": "选曲",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "选用已有曲调。",
+      "example_statement_id": "ST_1fae41a1057d1ade",
+      "example_subject": "李叔同",
+      "example_object": "祖国歌",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0225"
+      ]
+    },
+    {
+      "id": "MATCHED_TEXT",
+      "label": "配词",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "选配他人既有诗词，不声明为其作者。",
+      "example_statement_id": "ST_100b5cd3b409d33d",
+      "example_subject": "李叔同",
+      "example_object": "春景",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0346"
+      ]
+    },
+    {
+      "id": "WROTE_CALLIGRAPHY",
+      "label": "书写",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "书法手迹的书写者，不自动等于所书文字作者。",
+      "example_statement_id": "ST_0ef476d79e03b286",
+      "example_subject": "李叔同",
+      "example_object": "卫生四条屏",
+      "example_role": "",
+      "example_time": "1897年前后",
+      "example_paragraph_ids": [
+        "P0252"
+      ]
+    },
+    {
+      "id": "PAINTED",
+      "label": "绘画创作",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "绘画作品创作者。",
+      "example_statement_id": "ST_0569184ed48e5ed0",
+      "example_subject": "李叔同",
+      "example_object": "静物",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0453"
+      ]
+    },
+    {
+      "id": "ENGRAVED",
+      "label": "篆刻",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "亲手刻印；印谱收录不自动推出亲刻。",
+      "example_statement_id": "ST_34b49f6539d0ab3c",
+      "example_subject": "李叔同",
+      "example_object": "澂浠",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0302",
+        "P0307"
+      ]
+    },
+    {
+      "id": "EDITED",
+      "label": "编纂或编辑",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "编辑、编选或汇编作品。",
+      "example_statement_id": "ST_0808546ea0c4ecf0",
+      "example_subject": "吴梦非",
+      "example_object": "和声学大纲",
+      "example_role": "",
+      "example_time": "1930年",
+      "example_paragraph_ids": [
+        "P0196"
+      ]
+    },
+    {
+      "id": "TRANSLATED",
+      "label": "翻译",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "作品的翻译者。",
+      "example_statement_id": "ST_212809ea1814811a",
+      "example_subject": "李叔同",
+      "example_object": "法学门径书",
+      "example_role": "",
+      "example_time": "1903年",
+      "example_paragraph_ids": [
+        "P0170"
+      ]
+    },
+    {
+      "id": "DESIGNED",
+      "label": "设计",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "封面、海报、雕塑等设计或制作，具体角色见说明。",
+      "example_statement_id": "ST_1adb4c386f515cee",
+      "example_subject": "李叔同",
+      "example_object": "醒狮",
+      "example_role": "封面",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0440"
+      ]
+    },
+    {
+      "id": "USED_TEXT",
+      "label": "采用文句",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "使用或引用已有文句，不能据此认定为该文句作者。",
+      "example_statement_id": "ST_c4d848da2684de4a",
+      "example_subject": "李世珍",
+      "example_object": "惜衣惜食非是惜财缘惜福，求名求利须知求己莫求人",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0233"
+      ]
+    },
+    {
+      "id": "RECOMMENDED_TO_READ",
+      "label": "建议阅读",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "主体建议他人阅读该作品；受建议者见角色说明，不等同已经阅读或受到影响。",
+      "example_statement_id": "ST_2081d0b79c1170fc",
+      "example_subject": "李文熙",
+      "example_object": "百孝图",
+      "example_role": "建议李叔同阅读",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0069",
+        "P0562"
+      ]
+    },
+    {
+      "id": "ADDRESSED_TO",
+      "label": "致信对象",
+      "domain": [
+        "Work"
+      ],
+      "range": [
+        "Person"
+      ],
+      "definition": "书信的收信人；未具名收信人不虚构人物实体。",
+      "example_statement_id": "ST_2360839976483dd9",
+      "example_subject": "温州时期李叔同致刘质平信两封",
+      "example_object": "刘质平",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0581"
+      ]
+    },
+    {
+      "id": "FUNDED",
+      "label": "资助",
+      "domain": [
+        "Person",
+        "FamilyGroup",
+        "Organization"
+      ],
+      "range": [
+        "Person",
+        "Organization",
+        "Event"
+      ],
+      "definition": "原文明确提供财物支持。",
+      "example_statement_id": "ST_0fdcf18b9ebea438",
+      "example_subject": "李世珍",
+      "example_object": "保赤堂牛痘局",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0047"
+      ]
+    },
+    {
+      "id": "SUPPORTED_ORGANIZATION",
+      "label": "参与兴办或支持",
+      "domain": [
+        "Person",
+        "FamilyGroup",
+        "Organization"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "definition": "原文明示参与兴办或支持，但未细分出资、劳务或其他方式。",
+      "example_statement_id": "ST_1506f76b55f003f4",
+      "example_subject": "李氏家族",
+      "example_object": "广仁堂",
+      "example_role": "参与兴办，具体方式未详载",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0050"
+      ]
+    },
+    {
+      "id": "MANAGED",
+      "label": "经营或主持",
+      "domain": [
+        "Person",
+        "FamilyGroup"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "definition": "经营机构或主持其事务。",
+      "example_statement_id": "ST_c725d00cfa66f55e",
+      "example_subject": "李氏家族",
+      "example_object": "桐达银号",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0068"
+      ]
+    },
+    {
+      "id": "PARTICIPATED_IN",
+      "label": "参与事件",
+      "domain": [
+        "Person",
+        "FamilyGroup",
+        "Organization"
+      ],
+      "range": [
+        "Event"
+      ],
+      "definition": "参与角色在role字段记录。",
+      "example_statement_id": "ST_0078d31ac8834801",
+      "example_subject": "李叔同",
+      "example_object": "黑奴吁天录演出",
+      "example_role": "饰演艾米柳夫人和醉汉",
+      "example_time": "1907年6月",
+      "example_paragraph_ids": [
+        "P0426"
+      ]
+    },
+    {
+      "id": "EVENT_AT",
+      "label": "事件发生于",
+      "domain": [
+        "Event"
+      ],
+      "range": [
+        "Place"
+      ],
+      "definition": "实际发生地点；未成事件的意向地点以限定说明标识。",
+      "example_statement_id": "ST_07e35de5717e166a",
+      "example_subject": "李叔同皈依",
+      "example_object": "虎跑定慧寺",
+      "example_role": "",
+      "example_time": "1918年春节",
+      "example_paragraph_ids": [
+        "P0499"
+      ]
+    },
+    {
+      "id": "INVOLVES_WORK",
+      "label": "事件涉及作品",
+      "domain": [
+        "Event"
+      ],
+      "range": [
+        "Work",
+        "Exhibit"
+      ],
+      "definition": "事件创作、演出、赠送或使用的作品和材料。",
+      "example_statement_id": "ST_0ac919af619ac5f0",
+      "example_subject": "李叔同赠印西泠印社",
+      "example_object": "文涛长寿",
+      "example_role": "",
+      "example_time": "1918年出家前",
+      "example_paragraph_ids": [
+        "P0311",
+        "P0313"
+      ]
+    },
+    {
+      "id": "TARGET_ORGANIZATION",
+      "label": "事件涉及机构",
+      "domain": [
+        "Event"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "definition": "事件涉及的学校、社团等。",
+      "example_statement_id": "ST_223e0c88c5ce8b64",
+      "example_subject": "李叔同创办乐石社",
+      "example_object": "乐石社",
+      "example_role": "",
+      "example_time": "1914年9月",
+      "example_paragraph_ids": [
+        "P0308"
+      ]
+    },
+    {
+      "id": "PERFORMED_IN",
+      "label": "参加演出",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Event"
+      ],
+      "definition": "演出事件的表演者；剧中角色记录为role，不能当作真实人物身份。",
+      "example_statement_id": "ST_56aa6c4a233094e8",
+      "example_subject": "李叔同",
+      "example_object": "生相怜演出",
+      "example_role": "",
+      "example_time": "1908年4月",
+      "example_paragraph_ids": [
+        "P0429"
+      ]
+    },
+    {
+      "id": "STAGE_DESIGN_FOR",
+      "label": "舞台设计",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Event"
+      ],
+      "definition": "为该次演出承担舞台设计。",
+      "example_statement_id": "ST_79b3fb1e3f293bea",
+      "example_subject": "李叔同",
+      "example_object": "茶花女赈灾义演",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0423"
+      ]
+    },
+    {
+      "id": "USES_MELODY_OF",
+      "label": "采用曲调",
+      "domain": [
+        "Work"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "歌词或歌曲采用既有曲调，不能据此合并为同一作品。",
+      "example_statement_id": "ST_27e48488dadfd597",
+      "example_subject": "隋堤柳",
+      "example_object": "黛茜·贝尔",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0374"
+      ]
+    },
+    {
+      "id": "ADAPTED_FROM",
+      "label": "改编自",
+      "domain": [
+        "Work"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "有明确原作和改编作品关系。",
+      "example_statement_id": "ST_022c788f8e717b59",
+      "example_subject": "集大方广佛华严经对联",
+      "example_object": "华严经",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0275"
+      ]
+    },
+    {
+      "id": "IMITATED",
+      "label": "临摹或节录",
+      "domain": [
+        "Person",
+        "Work"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "人物临摹作品或作品临创自原作。",
+      "example_statement_id": "ST_16261744a7184d95",
+      "example_subject": "节录淮源庙碑四条屏",
+      "example_object": "淮源庙碑",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0269"
+      ]
+    },
+    {
+      "id": "CONTAINS_WORK",
+      "label": "收录",
+      "domain": [
+        "Work"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "作品集、期刊等收录具体作品。",
+      "example_statement_id": "ST_02d2a2cfb82e78aa",
+      "example_subject": "语美画刊",
+      "example_object": "李叔同先生治印",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0327"
+      ]
+    },
+    {
+      "id": "PUBLISHED_IN",
+      "label": "刊载于",
+      "domain": [
+        "Work"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "文章等刊载于期刊或报纸；不等同馆藏位置。",
+      "example_statement_id": "ST_09f474303dd4827f",
+      "example_subject": "满江红·民国肇造填此志感",
+      "example_object": "南社丛刻",
+      "example_role": "",
+      "example_time": "1912年7月",
+      "example_paragraph_ids": [
+        "P0220"
+      ]
+    },
+    {
+      "id": "PUBLISHED_BY",
+      "label": "出版者",
+      "domain": [
+        "Work"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "definition": "原文明示出版机构。",
+      "example_statement_id": "ST_376fb8062a17d224",
+      "example_subject": "清凉歌集",
+      "example_object": "开明书店",
+      "example_role": "",
+      "example_time": "1936年",
+      "example_paragraph_ids": [
+        "P0350"
+      ]
+    },
+    {
+      "id": "ABOUT",
+      "label": "内容涉及",
+      "domain": [
+        "Work",
+        "Exhibit",
+        "ExhibitionUnit"
+      ],
+      "range": [
+        "Person",
+        "FamilyGroup",
+        "Organization",
+        "Place",
+        "Work",
+        "Exhibit",
+        "Event",
+        "ExhibitionUnit",
+        "Concept"
+      ],
+      "definition": "内容或展陈指向的对象，不推出特定历史关系。",
+      "example_statement_id": "ST_00be84b1f572b82a",
+      "example_subject": "新式学校图（展陈记录 P0136）",
+      "example_object": "北洋大学堂",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0136"
+      ]
+    },
+    {
+      "id": "REPRESENTS_WORK",
+      "label": "展示作品",
+      "domain": [
+        "Exhibit"
+      ],
+      "range": [
+        "Work"
+      ],
+      "definition": "展陈材料呈现该作品；原件或复制品身份单独记录。",
+      "example_statement_id": "ST_00ce597f7963d12a",
+      "example_subject": "小说世界（展陈记录 P0393）",
+      "example_object": "小说世界",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0393"
+      ]
+    },
+    {
+      "id": "DEPICTS",
+      "label": "表现对象",
+      "domain": [
+        "Work",
+        "Exhibit"
+      ],
+      "range": [
+        "Person",
+        "Place",
+        "Organization",
+        "Event"
+      ],
+      "definition": "照片、图像或艺术作品表现的对象。",
+      "example_statement_id": "ST_07552b46b49cbd28",
+      "example_subject": "弘一大师汉白玉头像",
+      "example_object": "李叔同",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0528"
+      ]
+    },
+    {
+      "id": "RECONSTRUCTS",
+      "label": "复原对象",
+      "domain": [
+        "Exhibit",
+        "Place"
+      ],
+      "range": [
+        "Place",
+        "Organization",
+        "Event"
+      ],
+      "definition": "场景或建筑复原的历史对象，不能把复原件等同原物。",
+      "example_statement_id": "ST_5b45a2a50aa620ee",
+      "example_subject": "场景复原（展陈记录 P0212）",
+      "example_object": "浙江一师任教",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0212"
+      ]
+    },
+    {
+      "id": "HELD_BY",
+      "label": "收藏于",
+      "domain": [
+        "Work",
+        "Exhibit"
+      ],
+      "range": [
+        "Person",
+        "Organization",
+        "FamilyGroup"
+      ],
+      "definition": "原文明示持有或收藏；展出不自动等于收藏。",
+      "example_statement_id": "ST_2e6770e81a1847c4",
+      "example_subject": "卫生四条屏",
+      "example_object": "天津博物馆",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0252"
+      ]
+    },
+    {
+      "id": "COLLECTED",
+      "label": "收藏",
+      "domain": [
+        "Person",
+        "Organization",
+        "FamilyGroup"
+      ],
+      "range": [
+        "Work",
+        "Exhibit"
+      ],
+      "definition": "原文明示收藏行为。",
+      "example_statement_id": "ST_c0ba7d35cf6993d4",
+      "example_subject": "李叔同",
+      "example_object": "道宣画像",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0527"
+      ]
+    },
+    {
+      "id": "LOCATED_IN",
+      "label": "位于",
+      "domain": [
+        "Organization",
+        "Place",
+        "Exhibit"
+      ],
+      "range": [
+        "Place"
+      ],
+      "definition": "地点、建筑或机构所在的物理地域。",
+      "example_statement_id": "ST_116dda9ffd611061",
+      "example_subject": "白马湖",
+      "example_object": "上虞",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0591"
+      ]
+    },
+    {
+      "id": "BELONGS_TO_UNIT",
+      "label": "所属展陈",
+      "domain": [
+        "ExhibitionUnit",
+        "Exhibit",
+        "Work",
+        "Event"
+      ],
+      "range": [
+        "ExhibitionUnit"
+      ],
+      "definition": "依原文叙事结构组织，不推定具体物理展室。",
+      "example_statement_id": "ST_002f3eb3cd74afe1",
+      "example_subject": "行书《集大方广佛华严经对联》（展陈记录 P0275）",
+      "example_object": "独创弘体的书法家",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0235",
+        "P0275"
+      ]
+    },
+    {
+      "id": "EXHIBITED_AT",
+      "label": "讲解词记述展出于",
+      "domain": [
+        "Exhibit"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "definition": "依据本篇纪念馆讲解词的展陈语境，不宣称当前仍在展出。",
+      "example_statement_id": "ST_01cbc22f48e3b873",
+      "example_subject": "1938年漳州梅园照片（展陈记录 P0544）",
+      "example_object": "李叔同故居纪念馆",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0005",
+        "P0544"
+      ]
+    },
+    {
+      "id": "HAS_THEME",
+      "label": "关联主题",
+      "domain": [
+        "Person",
+        "FamilyGroup",
+        "Organization",
+        "Place",
+        "Work",
+        "Exhibit",
+        "Event",
+        "ExhibitionUnit",
+        "Concept"
+      ],
+      "range": [
+        "Concept"
+      ],
+      "definition": "主题归类；策展者推定必须标为inferred。",
+      "example_statement_id": "ST_037a89825c458934",
+      "example_subject": "沼津风景",
+      "example_object": "水彩画",
+      "example_role": "",
+      "example_time": "",
+      "example_paragraph_ids": [
+        "P0443"
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "id": "birth_date_text",
+      "label": "出生日期原文",
+      "domain": [
+        "Person"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "death_date_text",
+      "label": "逝世日期原文",
+      "domain": [
+        "Person"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "event_date_text",
+      "label": "事件日期原文",
+      "domain": [
+        "Event"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "creation_date_text",
+      "label": "创作日期原文",
+      "domain": [
+        "Work",
+        "Exhibit"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "publication_date_text",
+      "label": "发表或出版日期原文",
+      "domain": [
+        "Work"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "occupation_text",
+      "label": "身份与职业",
+      "domain": [
+        "Person"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "role_text",
+      "label": "角色或职务",
+      "domain": [
+        "Person"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "address_text",
+      "label": "地址原文",
+      "domain": [
+        "Place",
+        "Organization"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "area_text",
+      "label": "面积原文",
+      "domain": [
+        "Place",
+        "Organization"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "quantity_text",
+      "label": "数量原文",
+      "domain": [
+        "Person",
+        "FamilyGroup",
+        "Organization",
+        "Place",
+        "Work",
+        "Exhibit",
+        "Event",
+        "ExhibitionUnit",
+        "Concept"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "age_text",
+      "label": "年龄原文",
+      "domain": [
+        "Person"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "family_rank_text",
+      "label": "家中排行",
+      "domain": [
+        "Person"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "event_status",
+      "label": "事件完成状态",
+      "domain": [
+        "Event"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "publication_status",
+      "label": "出版状态",
+      "domain": [
+        "Work"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "material_text",
+      "label": "材质原文",
+      "domain": [
+        "Work",
+        "Exhibit"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "original_status",
+      "label": "原件保存状态",
+      "domain": [
+        "Work",
+        "Exhibit"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "authenticity",
+      "label": "原件或复制品身份",
+      "domain": [
+        "Exhibit"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "record_scope",
+      "label": "展陈记录粒度",
+      "domain": [
+        "Exhibit"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "style_text",
+      "label": "艺术风格原文",
+      "domain": [
+        "Work",
+        "Person"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "course_text",
+      "label": "教学课程",
+      "domain": [
+        "Person",
+        "Organization"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "education_idea_text",
+      "label": "教育主张",
+      "domain": [
+        "Person",
+        "FamilyGroup",
+        "Organization"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "quotation_text",
+      "label": "题词或警句原文",
+      "domain": [
+        "Person",
+        "Work"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "honorific_text",
+      "label": "称誉原文",
+      "domain": [
+        "Person"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "interpretation_text",
+      "label": "解释或评价",
+      "domain": [
+        "Person",
+        "Work",
+        "Concept"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "claim_text",
+      "label": "带归属的叙述主张",
+      "domain": [
+        "Person",
+        "FamilyGroup",
+        "Organization",
+        "Place",
+        "Work",
+        "Exhibit",
+        "Event",
+        "ExhibitionUnit",
+        "Concept"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "calendar_text",
+      "label": "历法原文",
+      "domain": [
+        "Person",
+        "FamilyGroup",
+        "Organization",
+        "Place",
+        "Work",
+        "Exhibit",
+        "Event",
+        "ExhibitionUnit",
+        "Concept"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "time_precision",
+      "label": "时间精度",
+      "domain": [
+        "Person",
+        "FamilyGroup",
+        "Organization",
+        "Place",
+        "Work",
+        "Exhibit",
+        "Event",
+        "ExhibitionUnit",
+        "Concept"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "name_note",
+      "label": "名称说明",
+      "domain": [
+        "Person",
+        "FamilyGroup",
+        "Organization",
+        "Place",
+        "Work",
+        "Exhibit",
+        "Event",
+        "ExhibitionUnit",
+        "Concept"
+      ],
+      "datatype": "string"
+    },
+    {
+      "id": "identity_note",
+      "label": "身份限定说明",
+      "domain": [
+        "Person",
+        "FamilyGroup",
+        "Organization",
+        "Place",
+        "Work",
+        "Exhibit",
+        "Event",
+        "ExhibitionUnit",
+        "Concept"
+      ],
+      "datatype": "string"
+    }
+  ],
+  "constraints": {
+    "unique_entity_id": true,
+    "evidence_required": true,
+    "inverse_edges_materialized": false,
+    "closed_world_validation": "build_kg.py",
+    "claim_status_is_not_historical_verification": true
+  }
+}
