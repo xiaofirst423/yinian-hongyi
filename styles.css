@@ -17,15 +17,23 @@
   transform: translate(calc(-1 * var(--scene-anchor)), -50%);
   background: url("assets/visuals/museum-background.webp") center / cover no-repeat;
 }
-.museum-portrait {
+.museum-portrait-frame {
   position: absolute;
   top: 5.6%;
   left: min(82.8%, calc(50% + 50vw - 14.1% - 16px));
   width: 14.1%;
+  /* Filter the clipped photograph so the silhouette softens along with the robe. */
+  filter: grayscale(1) contrast(.52) sepia(.33) brightness(1.11) blur(.8px);
+  opacity: .76;
+  mask-image:
+    radial-gradient(ellipse 52% 68% at 50% 29%, #000 47%, rgb(0 0 0 / .9) 63%, transparent 100%),
+    linear-gradient(transparent, #000 12%);
+  mask-composite: intersect;
+}
+.museum-portrait {
+  display: block;
+  width: 100%;
   height: auto;
-  filter: grayscale(1) contrast(.56) sepia(.44) brightness(1.14);
-  opacity: .87;
-  /* Follow the outline of the original photograph and fade the robe into the paper. */
   clip-path: polygon(
     49% 0.2%, 56% 1%, 65% 4%, 74% 9%, 79% 12%, 83% 17%, 85% 24%, 85% 29%,
     89% 32%, 88% 36%, 85% 41%, 83% 44%, 79% 47%, 77% 53%, 73% 58%, 70% 62%,
@@ -33,14 +41,13 @@
     28% 65%, 28% 60%, 24% 55%, 21% 49%, 19% 46%, 16% 43%, 14% 39%, 12% 33%,
     13% 26%, 14% 21%, 15% 17%, 19% 12%, 22% 9%, 27% 6%, 32% 4%, 40% 1%
   );
-  mask-image: radial-gradient(ellipse 68% 73% at 50% 27%, #000 56%, transparent 97%);
 }
 @media (max-aspect-ratio: 1672/941) {
   .museum-background { width: auto; height: 100%; }
 }
 @media (max-width: 760px) {
   .museum-scene { --scene-anchor: 73%; }
-  .museum-portrait { left: 82.8%; }
+  .museum-portrait-frame { left: 82.8%; }
 }
 button,input{font:inherit;color:inherit}button{cursor:pointer;background:transparent;border:0;min-height:40px}button,a,input,summary{-webkit-tap-highlight-color:transparent}button:disabled{cursor:default;opacity:.42}button,input,summary{touch-action:manipulation}button:not(:disabled):hover{color:var(--teal)}button:focus-visible,input:focus-visible,summary:focus-visible,a:focus-visible,canvas:focus-visible{outline:2px solid var(--teal);outline-offset:4px;border-radius:3px}svg{width:19px;height:19px;flex:none;vertical-align:middle}p,h1,h2,h3{margin:0}[hidden]{display:none!important}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.skip-link{position:fixed;top:-100px;left:20px;z-index:30;padding:12px 20px;color:var(--ink);background:var(--paper)}.skip-link:focus{top:15px}
