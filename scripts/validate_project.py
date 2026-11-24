@@ -18,7 +18,8 @@ def validate():
     for name, expected in data['sourceHashes'].items():
         assert hashlib.sha256((ROOT / 'source' / name).read_bytes()).hexdigest() == expected
     for relative in ['index.html', 'app.js', 'styles.css', '启动网站.bat', '停止网站.bat',
-                     'assets/visuals/museum-background.png', 'assets/visuals/favicon.svg']:
+                     'assets/visuals/museum-background.webp', 'assets/visuals/hongyi-1937.webp',
+                     'assets/visuals/favicon.svg']:
         assert (ROOT / relative).is_file(), f'缺少文件：{relative}'
     source_files = sorted(p.relative_to(ROOT / 'source').as_posix() for p in (ROOT / 'source').rglob('*') if p.is_file())
     assert source_files == sorted(data['sourceHashes']), '源快照应仅包含正式输入文件'
